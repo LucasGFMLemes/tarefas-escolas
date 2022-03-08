@@ -1,0 +1,30 @@
+programa
+{
+	//atividade 2
+	
+	
+	funcao inicio()
+	{
+		real numero[10]
+
+		para(inteiro i=0; i < 10; i++){
+           escreva("informe um numero: ")
+           leia(numero[i]) 
+		}
+
+          limpa()
+
+		para(inteiro i=9; i >= 0; i--){
+           escreva(numero[i], " ")
+           
+		}
+
+
+
+
+
+
+
+
+	}
+}
